@@ -10,7 +10,7 @@ const cors=require('cors');
 const port= process.env.PORT || 8006; 
 //get
 //rendering the statics
-app.use(express.static('client/public'));
+app.use(express.static('client/build'));
 app.use(express.json());
 app.use(cors());
 app.use(router);

@@ -97,14 +97,14 @@ const sendemail2 = async (e) => {
       </form>
  </div>
  <div className='bg-[#1f2937] w-[100%] flex justify-between items-center rounded-xl relative'>
-  <div className='flex'>
+  <div className='flex w-[100%]'>
     <div>
       <img src={require('../images/popup1.png')} alt="" />
     </div>
     <div className='text-white'>
       <p className='absolute top-[12%] left-[54%] '>For more queries</p>
       <p className='absolute top-[27%] left-[55%] text-2xl lg:text-4xl font-semibold'>Call Us!</p>
-      <div className='absolute  text-center w-[400px] h-[40px] top-[50%] left-[15%] md:left-[20%] lg:left-[35%] p-2'>
+      <div className='absolute  text-center top-[50%] left-[42%] md:left-[20%] lg:left-[39%] p-2'>
         <h1 className=' sm:text-xl lg:text-3xl font-bold '>+1 (888) 350-6579</h1>
       </div>
     </div>
